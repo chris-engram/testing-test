@@ -1,10 +1,5 @@
-import { DashboardLayout } from '@/components/dashboard-layout';
-import { DashboardContent } from '@/components/dashboard-content';
+import FigmaApp from '@/designs/App';
 
 export default function Home() {
-  return (
-    <DashboardLayout>
-      <DashboardContent />
-    </DashboardLayout>
-  );
+  return <FigmaApp />;
 }

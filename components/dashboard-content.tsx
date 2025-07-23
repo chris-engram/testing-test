@@ -1,7 +1,7 @@
 'use client';
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { CRMDashboardPage } from '@/components/crm/dashboard-page';
+import { DashboardPage } from '@/components/figma-dashboard-page';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import {
@@ -45,7 +45,7 @@ export function DashboardContent() {
         </TabsList>
 
         <TabsContent value="crm" className="space-y-4">
-          <CRMDashboardPage />
+          <DashboardPage />
         </TabsContent>
 
         <TabsContent value="analytics" className="space-y-4">
